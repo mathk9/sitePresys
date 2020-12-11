@@ -1,0 +1,102 @@
+.item1 { grid-area: logo; }
+.item2 { grid-area: barraP; }
+.item3 { grid-area: buttom; }
+
+body
+{
+    background-color: gray;
+}
+
+header
+{
+    background-color: rgb(14, 5, 65);
+    color: white;
+    margin-top: -16px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+#Pesquisar
+{
+    left: 80%;
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid; 
+    outline: 0;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    padding: 2px 0;
+    background: transparent;
+    transition: border-color
+    0.2s;
+}
+#cabecalho
+{
+    list-style: none;
+}
+#tdPesquisar
+{
+    border: 8px solid white;
+    padding: 4%;
+}
+.item1
+{ 
+    grid-area: logo;
+}
+.item2
+{ 
+    grid-area: barraP;
+}
+.item3
+{ 
+    grid-area: buttom;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    grid-template-areas: 
+    'logo logo logo logo logo logo logo logo logo logo logo logo logo logo logo logo barraP buttom';
+}
+#btnPesquisar
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+
+#cadForm
+{
+    margin-top: 35%; 
+    margin-left: 16%; 
+    display: none; 
+}
+
+#FormCadastro
+{
+    display: block; 
+    position: relative; 
+    width: 80%; 
+    height: 30%;
+}
+
+#FormCadastro
+{
+    border-style: solid;
+    border-width: 0.8px;
+    background-color: transparent;
+    width: 500px;
+    height: 170px;
+}
+
+#btnCad
+{
+    border-radius: 50%;
+    border-width: 0px;
+    background-color: crimson;
+    margin: 5px;
+    padding: 20px;
+}
+
