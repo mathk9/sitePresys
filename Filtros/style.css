@@ -1,0 +1,138 @@
+header{
+    background-color: rgb(14, 5, 65);
+    color: white;
+    margin-top: 0px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+button{
+    
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+h2{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#Pesquisar{
+    left: 80%;
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid; 
+    outline: 0;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    padding: 2px 0;
+    background: transparent;
+    transition: border-color
+    0.2s;
+}
+#cabecalho{
+    list-style: none;
+}
+#tdPesquisar{
+    border: 8px solid white;
+    padding: 4%;
+}
+.item1{ 
+    grid-area: logo;
+}
+.item1 img{
+    height: 150px;
+    width: 300px;
+}
+.item2
+{ 
+    grid-area: barraP;
+    margin-top: 45px;
+}
+.item3
+{ 
+    grid-area: buttom;
+    margin-top: 45px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+    grid-template-areas: 
+    'logo logo logo logo logo logo logo logo logo logo logo logo logo logo logo logo barraP buttom';
+}
+#btnPesquisar
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-color: transparent;
+}
+#recnovidades
+{
+    margin-top: 25px;
+    font-size: 16px;
+    height: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer
+{
+    background-color: rgb(14, 5, 65);
+    color: white;
+    justify-content: center;
+    align-items: initial;
+}
+#footer h2
+{
+    font-size: 24px;
+}
+#footer p
+{
+    font-size: 14px;
+}
+.grid-footer-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    'mapa sobre seguir novidades';
+    padding: 10px;
+}
+.footer0
+{
+    grid-area: mapa;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footer1
+{ 
+    grid-area: sobre;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footer2
+{ 
+    grid-area: seguir;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.footer3
+{ 
+    grid-area: novidades;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+#btnsaibamais
+{
+    margin-top: 25px;
+    background-color: rgb(1, 103, 167);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#btnsaibamais:hover
+{
+    cursor: pointer;
+}
